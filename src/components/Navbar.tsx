@@ -80,10 +80,12 @@ const Navbar = () => {
               <Link
                 key={item}
                 href={`/${item.toLowerCase().replace(" ", "-")}`}
-                className="text-black hover:text-gray-900 text-sm font-semibold"
+                className={`${item === "ABOUT US" ? "text-black" : "text-gray-600"
+                  } hover:text-gray-900 text-sm font-medium`}
               >
                 {item}
               </Link>
+
             ))}
           </div>
 
