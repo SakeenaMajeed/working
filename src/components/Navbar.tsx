@@ -20,8 +20,8 @@ const Navbar = () => {
         />
           <Link href="/" className="flex-shrink-0 flex flex-col items-center text-center">
             <span className="text-3xl font-extrabold tracking-wide text-transparent  font-poppins">
-              <span className="text-[#FF6B00]">MO</span>
-              <span className="text-[#FFA500]">MS</span>
+              <span className="text-[#FFA500]">MO</span>
+              <span className="text-[#FF6B00]">MS</span>
             </span>
             <span className="text-xs text-orange-600 mt-[-2px]">Bringing Moments to Life</span>
           </Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
             <button className="text-gray-600 hover:text-gray-900">
               <Settings className="h-5 w-5" />
             </button>
-            <button className="bg-gradient-to-r from-[#FF6B00] to-[#FFA500] text-white rounded-full px-6 py-2 text-sm font-medium transition-all duration-200 hover:shadow-md">
+            <button className="bg-gradient-to-r from-[#f5b744] to-[#ff5e00] text-white rounded-full px-6 py-2 text-sm font-medium transition-all duration-200 hover:shadow-md">
               Create Account
             </button>
           </div>
